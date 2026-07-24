@@ -1,7 +1,27 @@
 aid: cashdirector
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cashdirector.png
 name: CashDirector
-description: CashDirector is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: CashDirector is a fintech platform delivering AI-powered financial management for small
+  businesses through a white-label, B2B2C partner model. It embeds banking and accounting automation
+  directly into financial institutions' online banking platforms so banks can offer their SME clients a
+  "beyond banking" daily digital business assistant. The platform automates invoicing, expense tracking,
+  cash flow forecasting and receivables management, using AI and OCR to process financial documents
+  automatically. It supports multibanking with minimal IT involvement and reports over 250,000 users
+  across partnerships with six major European banks, positioning itself as Europe's first online
+  accounting system with full banking integration. CashDirector is a Techstars portfolio company; it
+  publishes no public developer portal or open API surface — integration is delivered privately to bank
+  partners.
 url: https://raw.githubusercontent.com/api-evangelist/cashdirector/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Accounting
+- Cash Flow
+- Banking
+- SME
+- Embedded Finance
+- Financial Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cashdirector-domain-security.yml
 - type: Website
   url: https://cashdirector.com/
+- type: PrivacyPolicy
+  url: https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/lvNybSwB/Polityka_prywatnosci_CD_com.pdf
+- type: Support
+  url: mailto:contact@cashdirector.com
+- type: LLMsTxt
+  url: llms/cashdirector-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

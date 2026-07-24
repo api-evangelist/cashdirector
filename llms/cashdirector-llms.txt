@@ -1,0 +1,13 @@
+# CashDirector
+
+> AI-powered financial management for small businesses, delivered white-label to banks (B2B2C). Embeds banking + accounting automation — invoicing, expense tracking, cash flow forecasting, receivables, OCR document processing — inside partner banks' online platforms as a "beyond banking" daily digital business assistant. Reports 250,000+ users across six major European bank partnerships. A Techstars portfolio company. No public developer portal or open API surface — integration is delivered privately to bank partners.
+
+## Company
+- [Website](https://cashdirector.com/): Company homepage (redirects to i.cashdirector.com/cd_global)
+- [Privacy Policy (PDF)](https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/lvNybSwB/Polityka_prywatnosci_CD_com.pdf): Privacy policy document
+- Contact: contact@cashdirector.com
+
+## Notes
+- No public API documentation, developer portal, OpenAPI, SDKs, MCP server, or /.well-known discovery documents were found (probed 2026-07-18; all 404/403).
+- No status page, changelog, or public sandbox published.
+- Segment: Fintech / embedded finance / SME accounting + banking integration.
