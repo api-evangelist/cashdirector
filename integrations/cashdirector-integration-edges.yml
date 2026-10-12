@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/cashdirector/integrations
+- https://n8n.io/integrations/cashdirector/
+- https://composio.dev/toolkits/cashdirector
+- https://monid.ai/tools/cashdirector
+checked:
+- https://composio.dev/toolkits/cashdirector
+- https://monid.ai/tools/cashdirector
+- https://n8n.io/integrations/cashdirector/
+- https://zapier.com/apps/cashdirector/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
